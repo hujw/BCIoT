@@ -29,7 +29,7 @@ module.exports = {
   },
   module: {
     rules: [
-      {
+      /*{
         test: /\.jsx?$/,
         loader: 'eslint-loader',
         enforce: 'pre',
@@ -38,7 +38,7 @@ module.exports = {
         options: {
           fix: true
         }
-      },
+      },*/
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
